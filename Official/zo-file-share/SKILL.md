@@ -15,7 +15,7 @@ metadata:
 
 1. **Ensure Gmail is connected** at [Settings &gt; Integrations](/?t=settings&s=integrations)
 
-2. **Register the service** (if not already running):
+2. **Register the service** (if not already running). Note the base URL will need to be adjusted with the user's handle.
 
    ```markdown
    register_user_service with:
@@ -24,7 +24,7 @@ metadata:
    - local_port: 8765
    - entrypoint: bun run /home/workspace/Skills/file-share/scripts/server.ts
    - workdir: /home/workspace/Skills/file-share/scripts
-   - env_vars: {"FILE_SHARE_BASE_URL": "https://file-share-0.zocomputer.io"}
+   - env_vars: {"FILE_SHARE_BASE_URL": "https://file-share-<HANDLE>.zocomputer.io"}
    ```
 
 # File Share
@@ -40,7 +40,7 @@ Share files from your workspace with email verification. Users request access, c
    bun cli.ts add-file /path/to/your/file.pdf "My Document"
    ```
 
-2. **Share the public URL:** https://file-share-0.zocomputer.io
+2. **Share the public URL:** https://file-share-<HANDLE>.zocomputer.io
 
 3. **Users visit the URL**, select a file, enter their email, and receive a confirmation link. After confirming, they get a download link.
 
@@ -69,7 +69,7 @@ Run from `Skills/file-share/scripts/`:
 
 ## Service Configuration
 
-The service runs at: **https://file-share-0.zocomputer.io**
+The service runs at: **https://file-share-<HANDLE>.zocomputer.io**
 
 To reconfigure or restart, update the service via Zo:
 
