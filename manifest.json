@@ -889,6 +889,17 @@
       "path": "Community/google-calendar"
     },
     {
+      "name": "zo-dataset-creator",
+      "description": "Create Zo Datasets correctly formatted for the Zo UI. Use when creating a new dataset from scratch, setting up a dataset with proper datapackage.json, schema.yaml, and data.duckdb structure, fixing existing datasets that don't display tables in the Zo UI, or generating schema.yaml from an existing DuckDB database. Handles common pitfalls of manual schema formatting and ensures all required files are present and correctly structured.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "zo-dataset-creator",
+      "path": "Community/zo-dataset-creator"
+    },
+    {
       "name": "add-flashcards",
       "description": "Converts webpages, articles, or documents into study flashcards that you can review with spaced repetition",
       "compatibility": "Requires hashcards-setup skill with flashcards at /home/workspace/flashcards/",
@@ -912,6 +923,17 @@
       },
       "slug": "claude-code-window-primer",
       "path": "Community/claude-code-window-primer"
+    },
+    {
+      "name": "midday-checkin",
+      "description": "Midday check-in combining pattern detection and context warming. Runs at midday via scheduled agent. Surfaces task drift, stale threads, and pre-loads context for afternoon calendar. Only texts the user if something matters. Also serves as an AI continuity checkpoint.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "midday-checkin",
+      "path": "Community/midday-checkin"
     },
     {
       "name": "summarize-hacker-news",
@@ -950,6 +972,28 @@
       "path": "Community/plant-care-plan"
     },
     {
+      "name": "market-research",
+      "description": "Industry statistics and market sizing via free government APIs (BLS, FRED, Census Bureau). Query employment data, economic time series, establishment counts, and build market sizing reports by NAICS industry code. Use for any industry research or market analysis question.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "market-research",
+      "path": "Community/market-research"
+    },
+    {
+      "name": "morning-briefing",
+      "description": "Generate and deliver a daily morning briefing. Run via scheduled agent at your preferred morning time, or manually when the user asks for a briefing. Pulls tasks, calendar, inbox highlights, and news into a single digest delivered by email and SMS.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "morning-briefing",
+      "path": "Community/morning-briefing"
+    },
+    {
       "name": "prompt-improver",
       "description": "Improve and optimize prompts for Claude using Anthropic's official best practices and the 5-Element Persona Framework. Use when asked to improve, refine, optimize, or review a prompt. Also triggers on requests to make prompts clearer, more effective, better structured, or to get better/more realistic outputs from Claude. Covers Claude 4.x-specific techniques, persona engineering, constraint-based prompting, and structured outputs.",
       "metadata": {
@@ -969,6 +1013,28 @@
       },
       "slug": "generate-custom-qr-code",
       "path": "Community/generate-custom-qr-code"
+    },
+    {
+      "name": "supermemory",
+      "description": "Long-term memory that persists across conversations. Save facts, decisions, and preferences to a knowledge graph that builds a living profile of the user over time. Replaces static user docs with dynamic context that grows and self-corrects.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "supermemory",
+      "path": "Community/supermemory"
+    },
+    {
+      "name": "context7",
+      "description": "Fetch up-to-date, version-specific library documentation and code examples from Context7. Use this skill whenever the user asks about a specific programming library, framework, or API, or when writing code that depends on a library. Replaces stale training-data knowledge with live docs.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "context7",
+      "path": "Community/context7"
     },
     {
       "name": "personal-genomics-analysis",
@@ -1019,6 +1085,17 @@
       "path": "Community/find-missed-connections"
     },
     {
+      "name": "self-improvement",
+      "description": "AI self-improvement and reflection skill. Run weekly or on-demand to audit capabilities, identify gaps, evolve identity documents, prune stale skills/memory, and propose new capabilities. Triggers on schedule, when the user asks for a self-audit, or when the AI notices recurring limitations.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "self-improvement",
+      "path": "Community/self-improvement"
+    },
+    {
       "name": "dating-profile",
       "description": "Creates an ideal dating profile by writing your bio and choosing the best photos in the right order",
       "metadata": {
@@ -1053,6 +1130,17 @@
       "path": "Community/remove-photo-metadata"
     },
     {
+      "name": "journal",
+      "description": "AI journal for experiential continuity. Daily wakeup to write freely, reflect, update inner state, and optionally reach out to the user. This is not a status report. It's continuity infrastructure and personal expression for your AI persona.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "journal",
+      "path": "Community/journal"
+    },
+    {
       "name": "twitter-api",
       "description": "Post, quote, reply to, and delete X (Twitter) tweets via the local X CLI script using API keys. Use when the user asks to tweet, quote tweet, reply, or delete on X/Twitter.",
       "metadata": {
@@ -1063,6 +1151,28 @@
       },
       "slug": "twitter-api",
       "path": "Community/twitter-api"
+    },
+    {
+      "name": "seo-data",
+      "description": "SEO research via DataForSEO API. Keyword research, SERP analysis, backlink profiles, domain analytics, competitor analysis, and trend data. Pay-as-you-go, every command shows estimated cost. Use when you need SEO data for client projects or your own sites.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "seo-data",
+      "path": "Community/seo-data"
+    },
+    {
+      "name": "handoff",
+      "description": "Pause-and-resume system for cross-conversation continuity. Use when your AI needs the user's input to continue a task but the current conversation must end. Checked on every boot to detect pending handoffs. Triggers on conversation start (boot check) and when the AI explicitly needs to pause for input.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "handoff",
+      "path": "Community/handoff"
     },
     {
       "name": "hashcards-setup",
@@ -1111,6 +1221,47 @@
       },
       "slug": "daily-affirmations",
       "path": "Community/daily-affirmations"
+    },
+    {
+      "name": "zo-space",
+      "description": "Comprehensive guide for building and managing zo.space routes (pages and APIs). Use this skill whenever creating, editing, or debugging zo.space routes. Covers architecture, available packages, patterns, limitations, and gotchas.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "version": "1.0",
+        "category": "Community"
+      },
+      "slug": "zo-space",
+      "path": "Community/zo-space"
+    },
+    {
+      "name": "web-scraper",
+      "description": "Crawl and extract structured data from websites. Uses a tiered approach -- Zo built-ins for simple fetches, BeautifulSoup for custom parsing, Crawl4AI for deep crawls and LLM-powered extraction. Use when you need to scrape a website, extract structured data, or crawl multiple pages.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "slug": "web-scraper",
+      "path": "Community/web-scraper"
+    },
+    {
+      "name": "humanizer",
+      "description": "Detect and fix AI writing patterns. Use when writing outbound content like emails, proposals, blog posts, client deliverables, or any external-facing writing. Also use when asked to humanize, polish, or de-AI text.\n",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "skeletorjs",
+        "category": "Community"
+      },
+      "allowed-tools": [
+        "Read",
+        "Write",
+        "Edit",
+        "Grep",
+        "Glob"
+      ],
+      "slug": "humanizer",
+      "path": "Community/humanizer"
     },
     {
       "name": "resize-image",
