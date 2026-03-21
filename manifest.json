@@ -1025,6 +1025,16 @@
       "path": "Community/prompt-improver"
     },
     {
+      "name": "share-skill",
+      "description": "Safely prepare and guide skills for contribution to the Zo Skills Registry. Reviews code for secrets, validates SKILL.md format, checks for suspicious patterns, and provides clear next steps for community or external skill submissions.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "rc2.zo.computer"
+      },
+      "slug": "share-skill",
+      "path": "Community/share-skill"
+    },
+    {
       "name": "visual-explainer",
       "description": "Build polished visual explainers as zo.space pages. Creates public routes at /explain/[slug] and keeps each explainer shareable at a stable URL.",
       "compatibility": "Created for Zo Computer",
