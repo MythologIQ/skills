@@ -4,6 +4,7 @@ description: Export and import zo.space route setups as shareable .zopack.md fil
 compatibility: Created for Zo Computer
 metadata:
   author: skeletorjs.zo.computer
+  version: "1.0"
 ---
 
 # zopack
@@ -40,6 +41,8 @@ The export script automatically:
 - Identifies required environment variable secrets
 
 ## Import
+
+**Warning:** Always use `--preview` before importing packs from untrusted sources. A zopack can specify arbitrary npm packages, shadcn registry URLs, and route code that will run on your Zo.
 
 To import a `.zopack.md` file and deploy its routes:
 

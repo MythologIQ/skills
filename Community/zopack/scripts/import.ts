@@ -118,7 +118,7 @@ function parseDependencies(body: string): { npm: string[]; shadcn: string[] } {
   const npm: string[] = [];
   const shadcn: string[] = [];
 
-  const depsSection = body.match(/## Dependencies\n\n([\s\S]*?)(?=\n## |\n---|\Z)/);
+  const depsSection = body.match(/## Dependencies\n\n([\s\S]*?)(?=\n## |\n---|$)/);
   if (!depsSection) return { npm, shadcn };
 
   const text = depsSection[1];
@@ -151,7 +151,7 @@ function parseSetup(body: string): { directories: string[]; files: Array<{ path:
   const files: Array<{ path: string; content: string }> = [];
   const secrets: string[] = [];
 
-  const setupSection = body.match(/## Setup\n\n([\s\S]*?)(?=\n## |\n---|\Z)/);
+  const setupSection = body.match(/## Setup\n\n([\s\S]*?)(?=\n## |\n---|$)/);
   if (!setupSection) return { directories, files, secrets };
 
   const text = setupSection[1];
