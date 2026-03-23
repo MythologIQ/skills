@@ -65,6 +65,8 @@ Use existing code as foundation. Identify existing abstractions, naming conventi
 
 ### Step 3: Create Plan File
 
+Create `plan-{feature-name}.md` in the project root (or `docs/` if governance files are centralized).
+
 ```markdown
 # Plan: [feature/component name]
 

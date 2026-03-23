@@ -14,6 +14,8 @@ metadata:
 
 Quick reference for all QoreLogic commands. No file reads required - pure reference output.
 
+**Note**: This skill is reference-only and does not activate a persona. It provides navigation guidance for the S.H.I.E.L.D. lifecycle.
+
 ## Command Summary
 
 | Command | Purpose | When to Use |
@@ -97,6 +99,12 @@ D - Deliver          → Deploy with traceability, monitor for drift
 
 - [ ] Command summary displayed
 - [ ] User directed to appropriate next skill
+
+## Related Skills
+
+- `/qor-status` - Check current lifecycle state (recommended starting point)
+- `/qor-bootstrap` - Initialize new workspace
+- `/qor-plan` - Plan new features
 
 ---
 

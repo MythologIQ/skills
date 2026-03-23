@@ -104,7 +104,7 @@ For each approved change:
 4. Log with timestamp
 5. Verify success
 
-Generate `FILE_INDEX.md` with:
+Generate `.agent/staging/FILE_INDEX.md` with:
 - Movement log
 - Rollback instructions
 - Timestamp
